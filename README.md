@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: https://sprightly-khapse-cdf3c0.netlify.app
+- Live Site URL: https://sprightly-khapse-cdf3c0.netlify.app (Click on links in the website to get good songs)
 
 ## My process
 
