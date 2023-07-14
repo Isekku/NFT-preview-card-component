@@ -1,0 +1,37 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    min-height: 100%;
+    min-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#mainBox{
+    background-color: blue;
+    width: 310px;
+    height: 550px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+#imageBox{
+    flex: 3.5;
+    background-image: url(images/image-equilibrium.jpg);
+    background-size: cover;
+}
+
+#presentationBox{
+    flex: 2;
+    background-color: red;
+}
+
+#creatorBox{
+    flex: 1;
+    background-color: beige;
+}
