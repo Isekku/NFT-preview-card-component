@@ -9,29 +9,104 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: hsl(217, 54%, 11%);
 }
 
 #mainBox{
-    background-color: blue;
-    width: 310px;
-    height: 550px;
+    background-color: hsl(216, 50%, 16%);
+    width: 300px;
+    height: 545px;
     padding: 25px;
+    border-radius: 15px;
     display: flex;
     flex-direction: column;
 }
 
 #imageBox{
-    flex: 3.5;
-    background-image: url(images/image-equilibrium.jpg);
+    flex: 5;
+    border-radius: 15px;
     background-size: cover;
 }
 
 #presentationBox{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+}
+
+#imageTitle{
+    color: white;
     flex: 2;
-    background-color: red;
+    display: flex;
+    align-items: center;
+    font-family: 'Outfit';
+    font-weight: 500;
+    font-size: 22px;
+}
+
+#description{
+    color: hsl(215, 51%, 70%);
+    flex: 1;
+    font-family: 'Outfit';
+    font-weight: 200;
+    font-size: 18px;
+}
+
+#priceAndTime{
+    flex: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+}
+
+#price{
+    color: hsl(178, 100%, 50%);
+    font-family: 'Outfit';
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+#time{
+    color: hsl(215, 51%, 70%);
+    font-family: 'Outfit';
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.icon{
+    margin-right: 5px;
 }
 
 #creatorBox{
-    flex: 1;
-    background-color: beige;
+    flex: 0.7;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+#profilePicture{
+    width: 35px;
+    height: 35px;
+    margin-right: 20px;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+
+#creator{
+    font-family: 'Outfit';
+    font-weight: 300;
+    font-size: 16px;
+    color: hsl(215, 51%, 70%);
+}
+
+#username{
+    font-family: 'Outfit';
+    font-weight: 300;
+    font-size: 16px;
+    color: white;
 }
